@@ -13,9 +13,10 @@ def pesquisa_binaria(lista, item):
             baixo = meio + 1
     return None
 
-minha_lista = ['diego', 'gabi', 'isabelle', 'christianne', 'junior']
+minha_lista = [1, 5, 42, 17, 89]
 minha_lista.sort()                      #para a pesquisa binária funcionar a lista precisa estar ordenada
 print(minha_lista)
-print(pesquisa_binaria(minha_lista, 'isabelle'))
 
-print(pesquisa_binaria(minha_lista, 'Diego'))
+print(pesquisa_binaria(minha_lista, 17))
+
+print(pesquisa_binaria(minha_lista, 69))
